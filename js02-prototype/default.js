@@ -1,7 +1,7 @@
 // ※GitHub Copilotによる解説に頼っています。
 
 // 継承とプロトタイプチェーン
-// https://developer.mozilla.org/ja/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+// @see https://developer.mozilla.org/ja/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
 // オブジェクト指向プログラミングのデザインパターンに、Prototypeパターンがあるが、JavaScriptでいうPrototypeは、それとは異なる。
 // JavaScriptでオブジェクトの継承関係を実装するためにはプロトタイプチェーンを理解する必要がある。
@@ -60,7 +60,7 @@ Date.prototype.toMysqlFormat = function () {
 console.log(new Date().toMysqlFormat());
 
 // そこで、このような拡張を行う場合は、Object.definePropertyを使うことが推奨されている。
-// https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+// @see https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
 //
 // これは、プロパティの定義を行うメソッドである。
 // このメソッドを使うことで、プロパティの定義を行うことができる。
@@ -96,5 +96,5 @@ console.log(new Date().toMysqlFormat2()); // 「Date.prototype.toMysqlFormat2 ha
 // それぞれの環境でライブラリを読み込む方法が異なるため、
 // その環境に応じて読み込み方を変えるためのものである。
 // このような記述を「UMD (Universal Module Definition)」という。
-// https://qiita.com/yohei1126/items/a04770e0e41c387144b6
+// @see https://qiita.com/yohei1126/items/a04770e0e41c387144b6
 // あとセミコロンがポイントだったりする。

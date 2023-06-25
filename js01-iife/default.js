@@ -2,8 +2,7 @@
 
 // 即時実行関数式
 // Immediately Invoked Function Expression
-// https://developer.mozilla.org/ja/docs/Glossary/IIFE
-//
+// @see https://developer.mozilla.org/ja/docs/Glossary/IIFE
 // 関数の定義と同時に実行する関数式の書き方のこと。
 
 // 通常の関数定義
@@ -91,7 +90,7 @@ try {
 
 // 関数の書き方には、functionキーワードを使わないものもある。
 // これはアロー関数と呼ばれるものである。
-// https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+// @see https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 // 以下のように書くことができる。
 (() => {
