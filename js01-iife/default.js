@@ -1,4 +1,4 @@
-// ※GitHub Copilotによる解説に頼っています。
+// ※一部GitHub Copilotによる解説に頼っています。
 
 // 即時実行関数式
 // Immediately Invoked Function Expression

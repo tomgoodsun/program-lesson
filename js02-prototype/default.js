@@ -1,4 +1,4 @@
-// ※GitHub Copilotによる解説に頼っています。
+// ※一部GitHub Copilotによる解説に頼っています。
 
 // 継承とプロトタイプチェーン
 // @see https://developer.mozilla.org/ja/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
